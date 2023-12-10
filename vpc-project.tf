@@ -126,7 +126,7 @@ resource "aws_security_group" "allow_ssh" {
 #cretae a key for both instance
 resource "aws_key_pair" "production" {
   key_name   = "production-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCaD6MQAYLZ8TAIIUJhXs/PSgAj3NmPRx2wwFgXR8It4zLK+1DUdpEqDe5LftTOW6FKcxPro1WJasbao600C/4NAm/PNRUNF3WxiLP3mmFQLjcrBXQr6x9Q1F49Iw8zC/duYxcMmM3zmapD7a2TXRD9K+Cj6yA7M8RiF+S3I/i74vuUWMESwgQhP0mChXEU+Qb5lxEd/vvn1nIhcWsdEr6OLyVuqAuGcPAvHT1W2kd5C2lnRtKLOk9EdiDQI0ZzmO36/U7kviUehb3KtSV91FLH0Mqe/O4Kg5gzDNhCoPyrxMTwLfBTYuBMSl9ARcYYg+w98t9ebgwTqzqP609ZwS89nxAtLH0+pbtnC+JxfmBlCJrmcb9GV6SdGGGH+ms7LZWcw8QHXDHX5EC2Co1oCRVMzWy4WRCvht2LUQAAGjGyE5xKaAvrVvdNDMreqxj+2U8wp6KVSnO7egIrvVTMPjIwc0ISGQV30732DTTQuG4MOfHL4H1HyiD2LG9vzwewZ48= root@TEQO-LT-070"
+  public_key = "ssh-rsa your ssh"
 
 }
 
